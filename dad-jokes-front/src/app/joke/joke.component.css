@@ -1,0 +1,14 @@
+.sub-title {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.content {
+    text-align: left;
+}
+
+.joke-container{
+    margin:20px;
+    padding: 0 20px;
+}

@@ -1,0 +1,8 @@
+<div class="container">
+  <h1 class="main-title">Dad jokes for free!</h1>
+  <br>
+  <p>We have <span class="amount">{{count}}</span> dad jokes for you, click on this button to get a new, random dad joke <button (click)="onButtonClick()"><span>Click here</span></button></p>
+  <br>
+  <br> 
+  <app-joke [joke]="this.joke"></app-joke>
+</div>
